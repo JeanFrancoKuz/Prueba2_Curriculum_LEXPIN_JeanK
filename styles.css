@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header>div /*Lo puse asi para no crear una clase y identificar para mover la imagen*/{ 
+  display: flex;
+  flex-direction: column; /*Para que los elementos esten uno encima de otro*/
+  align-items: center;
+  padding: 30px; ;
+  gap: 25px; /* Separando el h1 y la imagen. porque separa elementos*/
+}
+
+.foto {
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+h1{
+  border-style:groove;
+  border-color: aqua;
+}

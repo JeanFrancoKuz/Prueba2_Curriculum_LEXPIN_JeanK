@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo general y tipografía */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabecera */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+/* Título principal */
+h1 {
+  font-size: 26px;
+  color: #2c3e50;
+}
+
+/* Subtítulos de secciones */
+.subtitulo {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #1e272e;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Texto de cada sección */
+section > div, section > ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Experiencia laboral */
+h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #34495e;
+}
+
+/* Lista de habilidades */
+ul {
+  list-style: disc;
+  padding-left: 40px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+  }
+
+  .foto {
+    width: 120px;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .subtitulo {
+    font-size: 20px;
+  }
+}
