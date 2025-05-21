@@ -14,7 +14,7 @@ header>div /*Lo puse asi para no crear una clase y identificar para mover la ima
 .foto {
   width: 250px;
   height: 250px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
 h1{
