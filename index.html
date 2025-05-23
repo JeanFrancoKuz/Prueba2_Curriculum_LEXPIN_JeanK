@@ -3,24 +3,32 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Curriculum</title>
   </head>
   <body>
     <main>
       <header>
+        <nav>
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre_mi">Sobre mi</a>
+          <a href="#formacion">Formacion Academica</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#habilidades">Habilidades</a>
+        </nav>
+        <div>
+          <h1>Jean Franco Kuzniar Demianiuk</h1>
+        </div>
         <div>
           <img 
             src="./image/fotoCV.jpg" 
             alt="Foto del curriculum"
             class="foto"
           >
-          <h1>Jean Franco Kuzniar Demianiuk</h1>
         </div>
-        
       </header>
       <section>
-        <h2 class="subtitulo">Informacion personal</h2>
+        <h2 id="inicio" class="subtitulo">Informacion personal</h2>
           <div>
             <p>Correo: kuzniarfranco@gmail.com</p>
             <p>Telefono: +58 4123971034</p>
@@ -28,7 +36,7 @@
           </div>
       </section>
       <section>
-        <h2 class="subtitulo">Descripcion de mi perfil profesional</h2>
+        <h2 id="sobre_mi" class="subtitulo">Descripcion de mi perfil profesional</h2>
           <div>
             Soy una persona proactiva, organizada, responsable y puntual. Cuento con una sólida formación en administración de empresas y actualmente me estoy formando en el área de informática. 
             Poseo habilidades en la gestión de proyectos, análisis de datos y optimización de procesos. Me enfoco en integrar soluciones tecnológicas que mejoren la eficiencia organizacional. 
@@ -37,7 +45,7 @@
           </div>
       </section>
       <section>
-        <h2 class="subtitulo">Formacion academica</h2>
+        <h2 id="formacion" class="subtitulo">Formacion academica</h2>
           <div>
             <p>UEP Ilustre Americano Educación Secundaria (2015 - 2019)</p>
             <p>IUTA Ampliación Altos Mirandinos TSU en Administración de Empresas (2021 - 2023)</p>
@@ -45,7 +53,7 @@
           </div>
       </section>
       <section>
-        <h2 class="subtitulo"> Experiencia laboral</h2>
+        <h2 id="experiencia" class="subtitulo"> Experiencia laboral</h2>
           <div>
             <ul>
               <li>
@@ -70,8 +78,9 @@
           </div>
       </section>
       <section>
-        <h2 class="subtitulo">Habilidades</h2>
+        <h2 id="habilidades" class="subtitulo">Habilidades</h2>
           <ul>
+            <h3>Habilidades con certificado</h3>
             <li>Microsoft Excel (intermedio-avanzado)</li> 
             <h3>Habilidades Personales</h3>
             <li>Comunicación efectiva</li>
@@ -87,5 +96,9 @@
           </ul>
       </section>
     </main>
+    <footer>
+      © 2025 Jean Franco Kuzniar — Todos los derechos reservados
+    </footer>
+
   </body>
 </html>
