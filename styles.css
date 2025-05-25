@@ -161,3 +161,43 @@ footer::before {
   margin-bottom: 20px;
 }
 
+@media (max-width: 400px) {
+  main {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .descripcion, .experiencia, .formacion, .habilidades {
+    flex: 1 1 100%;
+    min-height: auto;
+    margin-bottom: 15px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .foto {
+    width: 120px; /* un poco más pequeña */
+    height: 120px;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  header > div > h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  header > nav > a {
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+}
+
